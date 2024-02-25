@@ -8,10 +8,11 @@
 int main(void)
 {
 int n = 0;
-int d = n % 10;
+int d = 0;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
+d = n % 10;
 
 printf("Last digit of  %d is %d ", n, d);
 
