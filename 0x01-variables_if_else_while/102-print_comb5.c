@@ -5,18 +5,19 @@
 */
 int main(void)
 {
-	int i;
-	int j;
-	int k;
-	int w;
+	int i1;
+	int i2;
 
-	for (i = 0; i < 10; i++)
+	for (i1 = 0; i1 < 100; i1++)
 	{
-		for (j = i + 1 ; j < 10 ; j++)
+		for (i2 = i1+1 ; i2 < 100 ; i2++)
 		{
-			putchar(i % 10 + '0');
-			putchar(j % 10 + '0');
-			if (i == 7 && j == 8 && k == 9)
+			putchar(i1 / 10 + '0');
+			putchar(i1 % 10 + '0');
+			putchar(' ');
+			putchar(i2 / 10 + '0');
+			putchar(i2 % 10 + '0');
+			if (i1 == 98 && i2 == 99)
 				break;
 			putchar(',');
 			putchar(' ');
