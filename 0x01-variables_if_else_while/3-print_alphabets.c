@@ -6,6 +6,7 @@
 int main(void)
 {
 	int i = 97;
+
 	for (; i < 123; i++)
 		putchar(i);
 	for (i = 65; i < 91; i++)

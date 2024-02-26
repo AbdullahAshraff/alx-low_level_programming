@@ -6,6 +6,7 @@
 int main(void)
 {
 	char i = '0';
+
 	for (; i < 58; i++)
 	{
 		putchar(i);
