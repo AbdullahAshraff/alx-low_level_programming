@@ -5,8 +5,7 @@
 */
 int main(void)
 {
-/*
- *	_putchar('_');
+	_putchar('_');
 	_putchar('p');
 	_putchar('u');
 	_putchar('t');
@@ -16,14 +15,5 @@ int main(void)
 	_putchar('r');
 	_putchar('\n');
 	return (0);
- */
-
-	int i;
-	char asdf[] = "_putchar";
-
-	for (i = 0 ; i < (int) sizeof(asdf); i++)
-	{
-		_putchar(asdf[i]);
-	}
 
 }
