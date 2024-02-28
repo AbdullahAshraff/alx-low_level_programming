@@ -1,3 +1,4 @@
 .vscode/*
 *.out
 0x01-variables_if_else_while/exp.c
+0x02-functions_nested_loops/main.h
