@@ -3,5 +3,5 @@
 0x01-variables_if_else_while/exp.c
 0x02-functions_nested_loops/1-main.c
 0x02-functions_nested_loops/_putchar.c
-0x18-dynamic_libraries/TEST
-0x18-dynamic_libraries/test.c
+# 0x18-dynamic_libraries/TEST
+# 0x18-dynamic_libraries/test.c
